@@ -6,10 +6,9 @@ import TransporterBanner from '../TransporterBanner/TransporterBanner';
 import Testimonials from '../Testimonials/Testimonials';
 
 
-const Container = () => {
+const Home = () => {
   return (
-    <div className="max-w-full max-h-full min-h-screen min-w-full p-0 m-0">     
-      
+    <div className="max-w-full max-h-full min-h-screen min-w-full p-0 m-0">
       <div className='flex justify-around px-10 my-5'>
       <LogisticsInfo/>
       <RegisterForm/>
@@ -21,4 +20,4 @@ const Container = () => {
   );
 };
 
-export default Container;
+export default Home;
